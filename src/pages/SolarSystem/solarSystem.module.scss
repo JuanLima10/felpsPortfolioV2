@@ -1,0 +1,216 @@
+.solarSystem{
+    height: 100vh;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #072C43 0%, #380B63 100%);
+    background-repeat: no-repeat;
+    background-size: 48% auto;
+
+    .title{
+        padding: 4rem 13.5rem 0rem 0rem;
+        margin-top: 0rem;
+        font-size: 2.4rem;
+        line-height: 2.9rem;
+        text-align: right;
+        color: #F9F9F9;
+    }
+
+    .nextWork{
+        padding: 6rem 13.5rem 0rem 0rem;
+        text-align: right;
+        text-align: end;
+        color: #F9F9F9;
+
+        a{
+            width: 17rem;
+            max-width: 90%;
+            background: #343837;
+            border-radius: 2.1rem;
+            padding: 1rem 1.2rem;
+
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            text-align: center;
+            color: #E5E5E5;
+            border: 1px solid #E5E5E5;
+        }
+
+        a:hover{
+            background: #F9F9F9;
+            color: #343837;
+            transition: 0.4s;
+        }
+    }
+
+    .nextWorkIcon{
+        display: none;
+
+        a{
+            font-size: 4.3rem;
+            color: #E5E5E5;
+        }
+    }
+
+    .solarSystemContent{
+        max-width: 1170px;
+        margin: 0 auto;
+        margin-top: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7rem;
+
+        .hero1{
+            p{
+                font-weight: bold;
+                font-size: 2.4rem;
+                line-height: 2.9rem;
+                text-align: center;
+
+                color: #F9F9F9;
+            }
+
+            img{
+                width: 60rem;
+            }
+        }
+
+        .hero2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            max-width: 60rem;
+
+            p{
+                text-align: left;
+                font-weight: bold;
+                font-size: 4rem;
+                color: #F9F9F9;
+                line-height: 4.9rem;
+            }
+
+            p:nth-child(2){
+                font-style: normal;
+                font-weight: normal;
+                font-size: 2.4rem;
+                line-height: 2.9rem;
+                color: #F9F9F9;
+                margin-bottom: 4rem;
+            }
+
+            a{
+                width: 36.9rem;
+                max-width: 90%;
+                background: #E5E5E5;
+                border-radius: 2.1rem;
+                padding: 1.7rem 1.6rem;
+
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.6rem;
+                line-height: 2rem;
+                text-align: center;
+                color: #343837;
+                border: 1px solid #E5E5E5;
+            }
+
+            a:hover{
+              background-color: #343837;
+              color: #E5E5E5;
+              transition: 0.4s;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .solarSystem{
+        background-size: 44% auto;
+    }   
+}
+
+@media screen and (max-width: 1010px) {
+    .solarSystem{
+        height: auto;
+        background-size: 100% auto;
+
+        .title{
+            display: none;
+        }
+
+        .nextWork{
+            padding-bottom: 6rem;
+            text-align: center;
+            margin-left: 14rem;
+            margin-top: -2rem;
+            margin-bottom: 0rem;
+
+
+            a{
+                width: 36.9rem;
+                max-width: 90%;
+                background: transparent;
+                border-radius: 2.1rem;
+                padding: 1.7rem 10.4rem;
+
+                font-size: 1.6rem;
+                line-height: 2rem;
+                text-align: center;
+                color: #E5E5E5;
+                border: 1px solid #E5E5E5;
+            }
+        }
+
+        .solarSystemContent{
+            flex-direction: column;
+            margin-top: 0rem;
+
+            .hero2{
+                align-items: center;
+                
+                p{
+                    text-align: center;
+                    margin-top: 0rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .solarSystem{
+        height: auto;
+        background-size: 100% auto;
+
+        .nextWork{
+            display: none;
+        }
+
+        .nextWorkIcon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1.6rem 15.5rem;
+            margin-bottom: 0rem;
+        }
+    }
+}
+
+@media screen and (max-width: 550px){
+    .solarSystem{
+
+        .solarSystemContent{
+            padding: 3.2rem 1.6rem;
+            
+            .hero1{
+
+                img{
+
+                    width: 40rem;
+                }
+            }
+        }
+    }
+}

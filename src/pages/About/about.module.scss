@@ -1,0 +1,217 @@
+.about{
+    height: 100vh;
+    margin-top: -2.4rem;
+
+    background: linear-gradient(#0F9B8E);
+    background-repeat: no-repeat;
+    background-size: 48% auto;
+
+    .title{
+        padding: 4rem 13.5rem 0rem 0rem;
+        font-size: 2.4rem;
+        line-height: 2.9rem;
+        text-align: right;
+        color: #F9F9F9;
+    }
+
+    .aboutContent{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3rem;
+        margin-top: 11.7rem;
+
+        .perfil{
+            max-width: 27.2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 27.2rem;
+                margin-bottom: 2.4rem;
+            }
+
+            p{
+                font-weight: bold;
+                font-size: 3.2rem;
+                line-height: 1.8rem;
+                text-align: center;
+                color: #E5E5E5;
+            }
+
+            i{
+                font-size: 2.4rem;
+                line-height: 1.8rem;
+                text-align: center;
+                color: #E5E5E5;
+            }
+
+            p:nth-child(4){
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 1.8rem;
+                text-align: center;
+                color: #E5E5E5;
+            }
+
+            .btnSocial{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 4rem;
+                
+                i{
+                    font-size: 3.6rem;
+                    margin-top: 1.6rem;
+                }
+            }
+        }
+
+        .more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 47rem;
+        padding: 3.2rem 1.6rem;
+        background: #F5F5F5;
+        box-shadow: 0.5rem 0.8rem 1.1rem rgba(0, 0, 0, 0.25);
+        border-radius: 4.7rem;
+
+        p:nth-child(1){
+            font-weight: bold;
+            font-size: 2.4rem;
+            text-align: center;
+            color: #343837;
+        }
+
+        p{
+            font-weight: bold;
+            font-size: 2.4rem;
+            color: #343837;
+            margin-top: 1rem;
+        }
+
+        p:nth-child(8){
+            font-weight: normal;
+            font-size: 2.4rem;
+            color: #343837;
+            
+            span{
+                color: #0F9B8E;
+            }
+        }
+
+        li{
+            font-weight: normal;
+            font-size: 2.4rem;
+            line-height: 2.9rem;
+            color: #343837;
+            margin-left: 2rem;
+            margin-bottom: 0.6rem;
+        }
+    }
+
+    .skills{
+        width: 37rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p{
+            font-weight: bold;
+            font-size: 2.4rem;
+            text-align: center;
+            color: #F5F5F5;
+            margin-bottom: 2.4rem;
+        }
+
+        li{
+            font-weight: bold;
+            font-size: 2.4rem;
+            line-height: 2.9rem;
+            text-align: left;
+            color: #F5F5F5;
+        }
+
+        .icons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            margin-top: 3.2rem;
+
+            img{
+                width: 7rem;
+            }
+        }
+    }
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .about{
+        background-size: 44% auto;
+    }   
+}
+
+@media screen and (max-width: 1010px) {
+    .about{
+        height: auto;
+        background-size: 100% auto;
+
+        .title{
+            font-weight: bold;
+            text-align: center;
+            padding: 10rem 0rem;
+        }
+
+        .aboutContent{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -2rem;
+
+            .perfil{
+                margin-bottom: 4rem;
+            }
+
+            .skills{
+                padding-bottom: 4rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 490px){
+    .about{
+
+        .aboutContent{
+            gap: 0;
+
+            .more{
+                width: 100%;
+                border-radius: 0rem;
+                box-shadow: none;
+            }
+
+            .skills{
+                width: 100%;
+                margin-top: -4rem;
+                padding: 4.2rem 2.6rem;
+                background: #F5F5F5;
+                gap: 1rem;
+
+                p{
+                    color: #343837;
+                }
+
+                li{
+                    color: #343837;
+                }
+            }
+        }
+    }
+}

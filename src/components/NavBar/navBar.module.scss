@@ -1,0 +1,101 @@
+.navBar{
+    padding: 4rem;
+    margin: 0 auto;
+
+    .navBarContent{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 76.8rem;
+
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 2.7rem;
+                margin-top: -0.8rem;
+                margin-right: 0.8rem;
+            }
+
+            p{
+                font-size: 1.8rem;
+                line-height: 2.2rem;
+                color: #FFFFFF;
+
+                span{
+                    font-weight: bold;
+                    color: #0F9B8E;
+                }
+            }
+        }
+
+        .buttons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3.2rem;
+
+            a{
+                width: 11.4rem;
+                max-width: 100%;
+                text-decoration: none;
+                padding: 1rem 0.8rem;
+                background: #E5E5E5;
+                border-radius: 2.1rem;
+
+                font-weight: bold;
+                font-size: 1.2rem;
+                line-height: 1.5rem;
+                text-align: center;
+                color: #343837;
+                border: 1px solid #E5E5E5;
+            }
+
+            a:hover{
+                background: transparent;
+                color: #E5E5E5;
+                border: 1px solid #E5E5E5;
+                transition: 0.4s;
+            }
+
+            a:nth-child(2){
+                background: transparent;
+                color: #E5E5E5;
+                border: 1px solid #E5E5E5;
+            }
+
+            a:nth-child(2):hover{
+                background: #E5E5E5;
+                color: #343837;
+                border: 1px solid #E5E5E5;
+                transition: 0.4s;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 1330px) {
+    .navBar{
+
+        .navBarContent{
+            gap: 40rem;
+        }
+    }   
+}
+
+@media screen and (max-width: 1010px) {
+    .navBar{
+
+        .navBarContent{
+            flex-direction: column;
+            gap: 2rem;
+
+            a{
+                display: none;
+            }
+        }
+    }   
+}

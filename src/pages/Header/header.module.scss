@@ -1,0 +1,189 @@
+.header{
+    height: 100vh;
+
+    .headerContent{
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        margin-top: 9rem;
+
+        .hero1{
+
+            img{
+                width: 47rem;
+            }
+        }
+
+        .hero2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 67rem;
+            max-width: 100%;
+            margin-top: -12rem;
+
+            p{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 4rem;
+                line-height: 150%;
+                text-align: center;
+                color: #E5E5E5;
+
+                span{
+                    font-weight: bold;
+                }
+
+            }
+
+            p:nth-child(2){
+                margin-top: -2rem;
+                font-weight: bold;
+                font-size: 6rem;
+                color: #0F9B8E;
+            }
+
+            p:nth-child(3){
+                margin-top: -6rem;
+            }
+
+            a{
+                width: 36.9rem;
+                max-width: 90%;
+                background: #0F9B8E;
+                border-radius: 2.1rem;
+                padding: 1.7rem 1.6rem;
+
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.6rem;
+                line-height: 2rem;
+                text-align: center;
+                color: #E5E5E5;
+            }
+
+            a:hover{
+                background: #E5E5E5;
+                color: #0F9B8E;
+                transition: 0.4s;
+            }
+
+            a:nth-child(5){
+                display: none;
+                width: 36.9rem;
+                max-width: 90%;
+                background: transparent;
+                border-radius: 2.1rem;
+                padding: 1.7rem 1.6rem;
+
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.6rem;
+                line-height: 2rem;
+                text-align: center;
+                color: #E5E5E5;
+                border: 1px solid #E5E5E5;
+                margin-top: 1.6rem;
+            }
+
+            a:nth-child(5):hover{
+                background: #E5E5E5;
+                color: #343837;
+                border: 1px solid #E5E5E5;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    .headerFooter{
+        height: 18rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    
+        .icons{
+            display: flex;
+            flex: 2;
+            align-items: flex-end;
+            justify-content: flex-end;
+            margin-right: 13.5rem;
+            margin-bottom: 4.1rem;
+            gap: 4rem;
+    
+            a{
+                font-size: 3.6rem;
+                line-height: 4.1rem;
+                color: #E5E5E5;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .header{
+        height: auto;
+
+        .headerContent{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-top: -4rem;
+        
+            .hero2{
+                margin-top: 0rem;
+
+                a:nth-child(5){
+                    display: block;
+                }
+
+            }
+        }
+        
+        .headerFooter{
+            justify-content: center;
+            align-items: flex-end;
+
+            .icons{
+                justify-content: center;
+                margin-left: 15rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .header{
+
+        .headerContent{
+            padding: 3.2rem 1.6rem;
+            margin-top: -9rem;
+
+            .hero2{
+
+                a{
+                    width: 46.8rem;
+                }
+
+                a:nth-child(5){
+                    width: 46.8rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header{
+
+        .headerContent{
+            
+            .hero1{
+
+                img{
+                    width: 37rem;
+                }
+            }
+        }
+    }
+}

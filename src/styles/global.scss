@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+  background: #343837;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@media screen and (max-width: 1330px) {
+  html{
+    font-size: 52%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  html{
+    font-size: 48%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  html{
+    font-size: 40%;
+  }
+}
