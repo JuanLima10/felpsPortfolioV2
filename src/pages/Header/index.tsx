@@ -15,7 +15,7 @@ export default function Header(){
                     <p>UX/UI Designer</p>
                     <p>seja bem-vindo ao meu site!</p>
                     <a href="#PetAdd">Ver trabalhos</a>
-                    <a href="#PetAdd">Fale Comigo</a>
+                    <a href="mailto:felipesenaux@gmail.com">Fale Comigo</a>
                 </div>
             </div>
             <div className={Style.headerFooter}>
