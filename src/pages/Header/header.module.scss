@@ -120,7 +120,7 @@
     }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1025px) {
     .header{
         height: auto;
 
@@ -185,5 +185,11 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-height: 910px) {
+    .header{
+        height: auto;
     }
 }

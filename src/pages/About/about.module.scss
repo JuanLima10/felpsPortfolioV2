@@ -157,7 +157,7 @@
     }   
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1025px) {
     .about{
         height: auto;
         background-size: 100% auto;
@@ -213,5 +213,11 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-height: 910px) {
+    .about{
+        height: auto;
     }
 }

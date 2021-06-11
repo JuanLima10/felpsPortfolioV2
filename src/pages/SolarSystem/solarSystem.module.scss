@@ -131,7 +131,7 @@
     }   
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1025px) {
     .solarSystem{
         height: auto;
         background-size: 100% auto;
@@ -212,5 +212,11 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-height: 910px) {
+    .solarSystem{
+        height: auto;
     }
 }

@@ -62,8 +62,8 @@ export default function About(){
                     <li>Designer Thinking</li>
                     <div className={Style.icons}>
                         <img src="/img/SoftwareIcons/figma.png" alt="Figma" />
-                        <img src="/img/SoftwareIcons/marvel.png" alt="Marvel" />
-                        <img src="/img/SoftwareIcons/miro.png" alt="Miro" />
+                        <img src="/img/SoftwareIcons/Marvel.png" alt="Marvel" />
+                        <img src="/img/SoftwareIcons/Miro.png" alt="Miro" />
                         <img src="/img/SoftwareIcons/xd.png" alt="Xd" />
                     </div>
                 </div>
