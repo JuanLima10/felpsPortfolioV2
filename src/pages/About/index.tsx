@@ -1,5 +1,4 @@
 import Style from './about.module.scss';
-import Age from '../../components/Age';
 
 export default function About(){
     ano_aniversario = 2002
